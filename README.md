@@ -1,34 +1,35 @@
 # PopX React Assessment
 
-A React.js application built as part of the PopX Frontend Assessment. The application replicates the provided UI design with pixel-perfect styling, mobile-centered layout, page navigation, authentication flow, route protection, form validation, and local storage support.
+A React.js application developed as part of the PopX Frontend Assessment. The project replicates the provided UI design with a mobile-centered layout, authentication flow, route protection, form validation, and local storage support.
 
-## Live Demo
+## 🚀 Live Demo
 
-Deployed Application: https://your-vercel-link.vercel.app
+https://popx-react-assessment.vercel.app
 
-## GitHub Repository
+## 📂 GitHub Repository
 
-Repository Link: https://github.com/your-username/popx-react-assessment
+https://github.com/Dev1438/-popx-react-assessment
 
 ---
 
-## Features
+## 📸 Features
 
-* Pixel-perfect UI implementation based on the provided design
+* Pixel-perfect UI implementation
 * Mobile app interface centered on the webpage
 * React Router DOM navigation
 * Public and Private Routes
-* Form validation
-* Local Storage data persistence
-* User registration and login functionality
-* Protected Profile page
-* Logout functionality
-* Responsive design
-* Clean and reusable code structure
+* User Registration
+* User Login
+* Protected Profile Page
+* Logout Functionality
+* Form Validation
+* Local Storage Persistence
+* Responsive Design
+* Clean Component-Based Architecture
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 * React.js
 * Vite
@@ -40,7 +41,7 @@ Repository Link: https://github.com/your-username/popx-react-assessment
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 src/
@@ -65,23 +66,23 @@ src/
 
 ---
 
-## Authentication Flow
+## 🔐 Authentication Flow
 
 ### Public Routes
 
-* /
-* /login
-* /signup
+* `/`
+* `/login`
+* `/signup`
 
 ### Private Routes
 
-* /profile
+* `/profile`
 
-Users attempting to access private routes without authentication are redirected to the login page.
+Users who are not authenticated cannot access protected routes and are automatically redirected to the Login page.
 
 ---
 
-## Validation
+## ✅ Form Validation
 
 The application validates:
 
@@ -92,15 +93,17 @@ The application validates:
 
 ---
 
-## Local Storage Usage
+## 💾 Local Storage
 
-### User Data
+User information is stored using Local Storage.
+
+### Store User Data
 
 ```javascript
 localStorage.setItem("user", JSON.stringify(formData));
 ```
 
-### Authentication State
+### Store Authentication Status
 
 ```javascript
 localStorage.setItem("isLoggedIn", "true");
@@ -114,33 +117,33 @@ localStorage.removeItem("isLoggedIn");
 
 ---
 
-## Installation
+## ⚙️ Installation & Setup
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/popx-react-assessment.git
-```
-
-Navigate to the project:
+### Clone Repository
 
 ```bash
-cd popx-react-assessment
+git clone https://github.com/Dev1438/-popx-react-assessment.git
 ```
 
-Install dependencies:
+### Navigate to Project
+
+```bash
+cd -popx-react-assessment
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run locally:
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Open:
+Application will run at:
 
 ```text
 http://localhost:5173
@@ -148,7 +151,7 @@ http://localhost:5173
 
 ---
 
-## Build for Production
+## 🏗️ Build for Production
 
 ```bash
 npm run build
@@ -162,24 +165,39 @@ npm run preview
 
 ---
 
-## Improvements Implemented
+## 🌐 Deployment
 
-* Route protection
-* Authentication handling
-* Reusable layout component
-* Form validation
-* Local storage persistence
-* Responsive design
-* Clean folder structure
+The application is deployed using Vercel.
+
+Live URL:
+
+https://popx-react-assessment.vercel.app
 
 ---
 
-## Author
+## ✨ Improvements Implemented
 
-Bakathatla Devender
+* Public Route Protection
+* Private Route Protection
+* Authentication State Management
+* Form Validation
+* Local Storage Persistence
+* Logout Functionality
+* Responsive Mobile Layout
+* Reusable Components
+* Clean Folder Structure
 
-Email: [your-email@example.com](mailto:your-email@example.com)
+---
 
-LinkedIn: https://linkedin.com/in/your-profile
+## 👨‍💻 Author
 
-GitHub: https://github.com/your-username
+**Bakathatla Devender**
+
+* GitHub: https://github.com/Dev1438
+* Project Repository: https://github.com/Dev1438/-popx-react-assessment
+
+---
+
+## 📄 License
+
+This project was created for educational and assessment purposes.
